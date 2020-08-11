@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.background {
+  margin-bottom: 50px;
+}
+
+button {
+  padding: 15px 60px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #006255;
+  color: white;
+}
+
+#wings1,
+#wings2,
+#wings3 {
+  -webkit-animation: animate 1s ease-in-out infinite alternate;
+          animation: animate 1s ease-in-out infinite alternate;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+}
+
+@-webkit-keyframes animate {
+  from {
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  to {
+    -webkit-transform: rotateX(10deg);
+            transform: rotateX(10deg);
+  }
+}
+
+@keyframes animate {
+  from {
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  to {
+    -webkit-transform: rotateX(10deg);
+            transform: rotateX(10deg);
+  }
+}
+
+.svg .wings {
+  fill: #045a3d;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.svg .background {
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  fill: #02130b;
+}
+
+.svg .light {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  fill: #1d1b1b;
+  stroke: black;
+}
+
+.svg .light-shadow {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+  fill: rgba(0, 0, 0, 0.102);
+}
+
+.svg .front-body {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  fill: #017c5d;
+}
+
+.svg .body-shadow {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  fill: #175f4b;
+}
+/*# sourceMappingURL=style.css.map */
