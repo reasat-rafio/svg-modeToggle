@@ -1,6 +1,6 @@
 import React from "react";
 
-const Animation = ({ dark }) => {
+const Animation = () => {
   return (
     <div className="svg">
       <svg

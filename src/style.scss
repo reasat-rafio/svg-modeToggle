@@ -27,46 +27,46 @@ button {
   color: white;
 }
 
-#wings1,
-#wings2,
-#wings3 {
-  animation: animate 1s ease-in-out infinite alternate;
-  transform-origin: bottom;
-}
+// #wings1,
+// #wings2,
+// #wings3 {
+//   animation: animate 1s ease-in-out infinite alternate;
+//   transform-origin: bottom;
+// }
 
-@keyframes animate {
-  from {
-    transform: rotateX(-10deg);
-  }
-  to {
-    transform: rotateX(10deg);
-  }
-}
+// @keyframes animate {
+//   from {
+//     transform: rotateX(-10deg);
+//   }
+//   to {
+//     transform: rotateX(10deg);
+//   }
+// }
 
-.svg {
-  .wings {
-    fill: rgb(4, 90, 61);
-    transition: all 0.2s ease;
-  }
-  .background {
-    transition: all 0.1s ease;
-    fill: rgb(2, 19, 11);
-  }
-  .light {
-    transition: all 0.2s ease;
-    fill: rgb(29, 27, 27);
-    stroke: black;
-  }
-  .light-shadow {
-    transition: all 2s ease;
-    fill: rgba(0, 0, 0, 0.102);
-  }
-  .front-body {
-    transition: all 0.5s ease;
-    fill: #017c5d;
-  }
-  .body-shadow {
-    transition: all 0.5s ease;
-    fill: #175f4b;
-  }
-}
+// .svg {
+//   .wings {
+//     fill: rgb(4, 90, 61);
+//     transition: all 0.2s ease;
+//   }
+//   .background {
+//     transition: all 0.1s ease;
+//     fill: rgb(2, 19, 11);
+//   }
+//   .light {
+//     transition: all 0.2s ease;
+//     fill: rgb(29, 27, 27);
+//     stroke: black;
+//   }
+//   .light-shadow {
+//     transition: all 2s ease;
+//     fill: rgba(0, 0, 0, 0.102);
+//   }
+//   .front-body {
+//     transition: all 0.5s ease;
+//     fill: #017c5d;
+//   }
+//   .body-shadow {
+//     transition: all 0.5s ease;
+//     fill: #175f4b;
+//   }
+// }
